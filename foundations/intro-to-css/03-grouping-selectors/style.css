@@ -1,1 +1,12 @@
 /* Add CSS Styling */
+.blk,.ylw{
+    font-size: 24px;
+    font-family: "Helvetica","Times New Roman","sans-serif";
+}
+.blk{
+    background-color: black;
+    color: white;
+}
+.ylw{
+    background-color: yellow;
+}
