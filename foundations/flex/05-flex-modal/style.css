@@ -15,11 +15,28 @@ body {
   justify-content: center;
 }
 
+.topper{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  font-weight: bold;
+}
+.text{
+  margin-bottom: 16px;
+}
+
 .modal {
+  display: flex;
+  padding: 10px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+.left{
+  display: flex;
+  padding: 10px;
 }
 
 .icon {
