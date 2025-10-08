@@ -1,13 +1,26 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+.boxx{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+    gap: 52px;
+}
 
 img {
   width: 100px;
   height: 100px;
 }
 
+.box1,.box2,.box3,.box4{
+  width: 200px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
 }
